@@ -20,16 +20,16 @@ h1, h2, h3 {
 
 .navbar {
     background-color: var(--nav-background) !important;
-    padding: 15px 30px;
+    padding: 20px 40;
 }
 
 .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 
 .nav-link {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .nav-link:hover {
@@ -54,17 +54,17 @@ main section {
     padding: 30px;
     margin-bottom: 30px;
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 main section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: var(--nav-background);
 }
 
 main section h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 20px;
 }
 
@@ -96,7 +96,7 @@ h1, h2, h3 {
 }
 
 .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
@@ -136,14 +136,14 @@ main section h2 {
 }
 
 main section h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 20px;
 }
 
 footer {
     text-align: center;
     background-color: var(--nav-background);
-    color: rgb(158, 49, 49);
+    color: rgb(18, 22, 43);
     padding: 25px;
     margin-top: 40px;
 }
@@ -151,7 +151,8 @@ footer {
 footer {
     text-align: center;
     background-color: var(--nav-background);
-    color: rgb(145, 49, 49);
-    padding: 25px;
+    color: rgb(129, 180, 129);
+    padding: 50px;
     margin-top: 40px;
+    font-size: 24px;
 }
