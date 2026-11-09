@@ -20,11 +20,11 @@ h1, h2, h3 {
 
 .navbar {
     background-color: var(--nav-background) !important;
-    padding: 20px 40;
+    padding: 20px 40px;
 }
 
 .navbar-brand {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -38,9 +38,10 @@ h1, h2, h3 {
 
 header > h1 {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 30px;
     background-color: var(--accent);
     margin: 0;
+    font-size: 4rem;
 }
 
 main {
@@ -66,86 +67,6 @@ main section h2 {
 main section h3 {
     font-size: 1.5rem;
     margin-top: 20px;
-}
-
-
-:root {
-    --background: #f7f5f0;
-    --surface: #ffffff;
-    --text: #232a35;
-    --nav-background: #202e40;
-    --accent: #b9e2d0;
-    --border: #d6e1dd;
-}
-
-body {
-    background-color: var(--background);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    line-height: 1.6;
-}
-
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-}
-
-/* Navigation */
-.navbar {
-    background-color: var(--nav-background) !important;
-    padding: 15px 30px;
-}
-
-.navbar-brand {
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
-.nav-link {
-    margin-left: 15px;
-}
-
-.nav-link:hover {
-    color: var(--accent) !important;
-}
-
-header > h1 {
-    text-align: center;
-    padding: 60px 30px;
-    background-color: var(--accent);
-    margin: 0;
-}
-
-main {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-main section {
-    background-color: var(--surface);
-    padding: 30px;
-    margin-bottom: 30px;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-main section h2 {
-    margin-bottom: 20px;
-    color: var(--nav-background);
-}
-
-main section h3 {
-    font-size: 1.4rem;
-    margin-top: 20px;
-}
-
-footer {
-    text-align: center;
-    background-color: var(--nav-background);
-    color: rgb(18, 22, 43);
-    padding: 25px;
-    margin-top: 40px;
 }
 
 footer {
